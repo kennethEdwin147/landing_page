@@ -61,30 +61,97 @@
     </ul>
   </div>
 
+
   <!-- Hero -->
   <section
-    class="pt-24 md:mt-0 md:h-screen flex flex-col justify-center text-center md:text-left md:flex-row md:justify-between items-center md:items-start lg:px-48 md:px-12 px-4 bg-secondary">
-    <div class="md:flex-1 md:mr-10">
+    class="pt-24 md:mt-0 md:h-screen flex flex-col justify-center  items-center md:items-start md:text-left md:flex-row md:justify-between lg:px-48 md:px-12 px-4 bg-secondary">
+
+    <!-- title -->
+ <div class="md:flex-1 md:mr-10">
       <h1 class="font-pt-serif text-5xl font-bold mb-7">
         Jouez avec vos
         <span class="bg-underline1 bg-left-bottom bg-no-repeat pb-4 bg-100%">
           créateurs préférés
         </span>
       </h1>
-      <p class="font-pt-serif font-normal mb-7 mt-8">
+      <!-- <p class="font-pt-serif font-normal mb-7 mt-8">
         Réservez des sessions de jeu en direct et interactives avec vos créateurs de contenu gaming favoris.
         Une expérience unique et personnalisée, directement depuis votre salon.
-      </p>
-      <div class="font-montserrat">
-        <a href="signup.html" class="bg-black px-6 py-4 rounded-lg border-2 border-black border-solid text-white mr-2 mb-2 inline-block">
-          Réserver une session
-        </a>
-        <a href="signup.html?type=creator" class="px-6 py-4 border-2 border-black border-solid rounded-lg inline-block">
-          Devenir créateur
-        </a>
+      </p> -->
+
+      <div class="flex items-start font-montserrat mt-14 my-6 mr-10">
+        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <div>
+          <h3 class="font-semibold text-2xl">Flexibilité pour les créateurs</h3>
+          <p>
+            Les créateurs définissent leurs propres disponibilités, types de sessions et tarifs.
+            Notre plateforme leur donne le contrôle total sur leur offre et leur emploi du temps.
+          </p>
+        </div>
       </div>
+
+
     </div>
-    <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">
+    <!-- title -->
+
+
+
+<!-- form start -->
+
+<section class="bg-gray-50 dark:bg-gray-900 font-montserrat ">
+  <div class="relative">
+
+    <!-- image icone  -->
+        <img src='dist/assets/Highlight1.svg' alt="" class="absolute -top-16 -left-10" />
+      </div>
+
+      <!-- image icone -->
+
+  <div class="flex flex-col items-center  px-6 py-8 mx-auto md:h-screen lg:py-0">
+
+      <div class="w-full bg-white  shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+          <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+              <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                  Connexion à votre compte
+              </h1>
+              <form class="space-y-4 md:space-y-6" action="#">
+                  <div>
+                      <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Votre email</label>
+                      <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="nom@exemple.com" required="">
+                  </div>
+                  <div>
+                      <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mot de passe</label>
+                      <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
+                  </div>
+                  <div class="flex items-center justify-between">
+                      <div class="flex items-start">
+                          <div class="flex items-center h-5">
+                            <input id="remember" aria-describedby="remember" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="">
+                          </div>
+                          <div class="ml-3 text-sm">
+                            <label for="remember" class="text-gray-500 dark:text-gray-300">Se souvenir de moi</label>
+                          </div>
+                      </div>
+
+                      <div>
+                          <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Mot de passe oublié ?</a>
+                      </div>
+                      
+                  </div>
+                  <button type="submit" class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Se connecter</button>
+                  <p class="text-sm font-light text-gray-500 dark:text-gray-400">
+                      Pas encore de compte ? <a href="#" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Inscription</a>
+                  </p>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+    <!-- form end -->
+
+    </div>
+    <!-- image -->
+   <!--  <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">
       <div class="relative">
         <img src='dist/assets/Highlight1.svg' alt="" class="absolute -top-16 -left-10" />
       </div>
@@ -92,7 +159,10 @@
       <div class="relative">
         <img src='dist/assets/Highlight2.svg' alt="" class="absolute -bottom-10 -right-6" />
       </div>
-    </div>
+    </div> -->
+
+    <!-- image -->
+
   </section>
 
   <!-- How it works -->
